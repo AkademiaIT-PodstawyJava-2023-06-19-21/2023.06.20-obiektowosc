@@ -12,10 +12,12 @@ public class Client {
     int dzien;
 
     int dodaj(int x, int y) {
+        System.out.println("dodawnie intow !!!");
         return x + y;
     }
 
-    double dodaj2(double x, double y) {
+    double dodaj(double x, double y) {
+        System.out.println("dodawanie double'i !!!");
         return x + y;
     }
 
@@ -37,5 +39,9 @@ public class Client {
     void metodaCoNicNieZwraca(int x, double y) {
         double wynik = x*y;
         System.out.println(wynik);
+    }
+
+    void powiedzNazwisko() {
+        System.out.println(this.surname);
     }
 }

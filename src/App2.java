@@ -13,5 +13,6 @@ public class App2 {
         int x = 10;
 
         Client.name = "Karol";
+        //Client.surname = "cos";
     }
 }

@@ -43,11 +43,12 @@ public class App {
 
         //System.out.println(new Random().nextInt(1001));
 
-        int wynikDodawania = c3.dodaj(5,9);
-        double wynikDodawania2 = c3.dodaj2(3.3, 5.5);
+        int x = 5;
+        int wynikDodawania = c3.dodaj(x,9);
+        double wynikDodawania2 = c3.dodaj(3.3, 5.5);
 
         System.out.println(wynikDodawania);
-        System.out.println(c3.dodaj2(3.3, 5.5));
+        System.out.println(c3.dodaj(3.3, 5.5));
 
         c3.metodaCoNicNieZwraca(4, 1.1);
 
@@ -60,5 +61,9 @@ public class App {
         System.out.println(gl.generateValue());
         System.out.println(gl.generateValue());
         System.out.println(gl.generateValue());
+
+        System.out.println(7);
+
+        c3.dodaj(4, 4.4);
     }
 }
